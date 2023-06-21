@@ -70,7 +70,7 @@ Git преобразует информацию о коммитах с помо�
 ## Жизненный цикл файла в Git  
 
 ```mermaid
-grph TD;
+graph TD;
 A[untracked] -- git add --> B[staged+tracked];
 B -- git commit --> C[tracked];
 C -- changes --> D[modified];
